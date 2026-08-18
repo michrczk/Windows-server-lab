@@ -1,30 +1,33 @@
-HEAD
-\# Windows Server 2019 Lab
+# Windows Server 2019 Lab
+Laboratorium stworzone w celu przećwiczenia administracji systemem Windows Server 2019 oraz symulacji sytuacji, z którymi osoba pracująca jako IT support może się napotkać.
 
+## Projekty
 
+- Active Directory
+- File Server
+- Group Policy
+- NAT
+- Temporary Account
 
-\## Projekty:
+## Środowisko:
 
-\- Active Directory
+- Windows Server 2019
+- Windows 7/10/11
+- VirtualBox
 
-\- File Server
+## Co zostało przećwiczone
+- tworzenie użytkowników, grup i OU w Active Directory
+- dołączanie komputera do domeny
+- konfiguracja udziałów sieciowych i uprawnień NTFS
+- tworzenie i testowanie GPO
+- konfiguracja DHCP i DNS
+- podstawowa diagnostyka problemów sieciowych
 
-\- Group Policy
-
-
-
-\## Środowisko:
-
-\- Windows Server 2019
-
-\- VirtualBox
-
-
-
-\## Cel:
-
-Pokazanie praktycznych umiejętności IT Support / Administratora.
-
-
-# Windows-server-lab
-80231ccb4abedda40e71f4fe1e1d0a3b47914751
+## Troubleshooting
+### Przykładowe problemy odtworzone w laboratorium:
+- Brak możliwości zalogowania się przez użytkownika
+- Brak dostępu do zmapowanego dysku
+- Brak dostępu do edycji pliku
+- Stworzenie specjalnego GPO dla użytkowników określonego systemu
+- Brak dostępu do internetu
+- Logowanie za pomocą profilu tymczasowego 
