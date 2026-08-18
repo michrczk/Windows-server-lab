@@ -37,7 +37,7 @@ Błędna brama domyślna na kliencie:
 Błędna konfiguracja translatora adresów sieciowych
 
 
-### Rozwiązanie
+## Rozwiązanie
 - korekta gateway na kliencie
 - zmiana prywatnego interfejsu na publiczny
 - ipconfig /release /renew
